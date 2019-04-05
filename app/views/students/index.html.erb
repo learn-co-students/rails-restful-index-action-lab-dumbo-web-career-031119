@@ -1,0 +1,4 @@
+<h1>Student Index</h1>
+<%@students.each do |stdnt|%>
+<h2><a href="student/<%=stdnt.id%>"><%=stdnt.to_s%></a></h2>
+<%end%>
